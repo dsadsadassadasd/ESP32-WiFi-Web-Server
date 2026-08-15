@@ -78,7 +78,7 @@ void loop() {
         Serial.println(request);
         html = "<h1>ESP 32 WEB SERVER</h1> <p>Hello from my ESP32</p> <p>Uptime: ";
         html += uptime;
-        html += "</p>";
+        html += " seconds</p>";
         html += "<p>Free Memory: ";
         html += freeMemory;
         html += " bytes </p>";
